@@ -1,7 +1,6 @@
 name: UnicomTask
 
 on:
-  gollum:
   workflow_dispatch:
   schedule:
     - cron: '30 22 * * *'
